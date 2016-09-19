@@ -1,0 +1,3233 @@
+
+
+Started GET "/" for ::1 at 2016-07-18 16:25:31 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 18ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2016-07-18 16:25:41 +1000
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/phaniganti/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/phaniganti/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/phaniganti/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.8ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (76.1ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.5ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (105.2ms)
+
+
+Started GET "/" for ::1 at 2016-07-18 16:27:27 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 447ms (Views: 446.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-18 16:27:43 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 16:27:43 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:19:40 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 93ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/assets/marvelcomics.self-afad6c7fa890e11a12bae7bc5db777b013d134fde5c93587ec8b2db12b176c23.js?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:19:40 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:20:51 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:20:51 +1000
+
+
+Started GET "/assets/marvelcomics.self-0845b478b3c5477f2ea2e0ac95766c4745fa4e1d03ff2127a982f1cf407ac3b2.js?body=1" for ::1 at 2016-07-18 21:20:51 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:20:51 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:20:52 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:20:52 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:20:52 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:20:52 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:25:53 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/marvelcomics.self-ca352a050c510a156b0b1a2eab9e919fe50f18099ee64590373a94b6f88368e0.js?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:25:53 +1000
+
+
+Started GET "/md5.js" for ::1 at 2016-07-18 21:25:53 +1000
+
+ActionController::RoutingError (No route matches [GET] "/md5.js"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/phaniganti/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/phaniganti/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/phaniganti/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.1ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.0ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.1ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/phaniganti/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.2ms)
+
+
+Started GET "/" for ::1 at 2016-07-18 21:26:28 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/marvelcomics.self-ca352a050c510a156b0b1a2eab9e919fe50f18099ee64590373a94b6f88368e0.js?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:26:28 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:26:58 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/marvelcomics.self-36267fb8679698dc2fbae98eb677b93f958b259770b2b9acb0242309843ed404.js?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:26:58 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:29:12 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/marvelcomics.self-d2986ba7f71c9bb47c0920744bdc22d81efa43b02e7b6ddbf19b63f7768afead.js?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:29:12 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:31:22 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/marvelcomics.self-9cc4a874971a9eefd3657632f55e45f94420ca1aad057199f448b1b765b5c23b.js?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:31:22 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:36:02 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/marvelcomics.self-9cc4a874971a9eefd3657632f55e45f94420ca1aad057199f448b1b765b5c23b.js?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:36:02 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:36:31 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/marvelcomics.self-b003123b1be4a25cb0f94a44bcbca7fca2f3b3a33f7e4197718187bea5a8eb1a.js?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:36:31 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:39:33 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/marvelcomics.self-4415bb9fc2a7b9ae397ef861199dbcc5edbba68e215b9ee0f0294f236a395151.js?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:39:33 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:40:37 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/marvelcomics.self-f3563b0f110b26b5bee9f8b98ada41ef5b15faf41d4674d26be8a884dbeeed02.js?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:40:37 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:41:04 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/marvelcomics.self-7e3cf23a7a9c9263a58840f2ed76e015adfd864fbd2a44c5253ca25380918305.js?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:41:04 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:42:24 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/marvelcomics.self-59621ea1d755e7cd5c0f09e1c2dea95707cdda9078d6007a42ff13002f15368a.js?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:42:24 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:42:56 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/marvelcomics.self-74d3e3e941a4735db4080be15b377f3c2a390db4c38c0481ddc091913cde94bb.js?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:42:57 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:43:13 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:43:13 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:43:13 +1000
+
+
+Started GET "/assets/marvelcomics.self-3e4381eaa2a4c3e08d95b05e6cdaec9af2cbc7c3207118f685aad610240d271a.js?body=1" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:43:14 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:46:57 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/marvelcomics.self-1655e8f8ba208f840c377a41dcda52e2902f6496952df998d539028b5bb5cfff.js?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:46:57 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:48:51 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/marvelcomics.self-c19e207d52a7cb44146219b22920b832f507d40e1da173247fad467cef6acda6.js?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:48:51 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:56:18 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/marvelcomics.self-d669bed070a401b44835d7e254ab1cd400c839b22e6a87bf21034c8e2ae3b877.js?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:56:18 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 21:59:10 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/application.self-50664b4cf985dbd4d83ef546b7942f3dc02822fde8fe2092c8421242891686de.css?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 21:59:10 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:00:26 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a73cbec09548968b68f7180ef7aab467935a68b3426f27fafeb5f7899e2bb4f4.css?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:00:26 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:03:15 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-476159d5663fa5db32fbdcbe3c9b9c26b5db1ce1de494d783e78c3e7177dfbfd.css?body=1" for ::1 at 2016-07-18 22:03:15 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:03:15 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:03:15 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:03:15 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:03:16 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:03:16 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:03:16 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:03:16 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:03:16 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:03:46 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ea03a456beaf6609ea2902a8464e20b6693a6806a83b9842f2106cc6b8e732d0.css?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:03:46 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:03:48 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/application.self-ea03a456beaf6609ea2902a8464e20b6693a6806a83b9842f2106cc6b8e732d0.css?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:03:48 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:04:18 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-145b9d6fe9de28279156d5ab091fc8254710798fdcd2958315b7e0241c709fec.css?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:04:18 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:04:32 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-713340a28a2da3fa7bc391d79ce65a02ae4739f090e9559c78bcca2b2f5b46b8.css?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:04:32 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:04:47 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f72308ac571fda0a6d0ab0912ea0342b8bae6f193a57211d59f57b94d3989fbc.css?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:04:47 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:05:13 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e706526cfc9cd509c1e8c41a88a63f77a5f9573ae83409f0d8c91b99740f62a6.css?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:05:13 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:05:21 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f6045ed0c1d462b7e703eb9e77f623365f80e4c51baeebadef2940b0ec2570ec.css?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:05:21 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:05:33 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e0a06de7d1889885671b1687033116b165f4750b5e8de06e3b1a042a5b923b90.css?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:05:33 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:05:44 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-126ed89099af7b09a5417b0de7651fc74c5b1777c4bd3dd9603c713cbbda3216.css?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:05:45 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:05:52 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-188d28704f1409354a94f920e28f1cdc1b1b474c04d5399300b3b2194bae5bd5.css?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:05:52 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:06:39 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/application.self-43015838db929d5448d9d289a3988b939fb1e16d61b5bce05d8837f382007ecd.css?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:06:39 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:06:55 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7e4114f26e823b49ae5db8ba4206e7b76258bbf2a45c24551bd0bcfcc1936770.css?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:06:55 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:07:23 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0eada422efc6c7234ca7e7a53e5c52a654454c8d69573b23d707155520a30ece.css?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:07:23 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:07:45 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a40d8cc3b4d24947eab0855e626e9e8a752dc514f790d9712e88572415bf01c2.css?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:07:45 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:09:52 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3c16f5235e4cf653760db6eae387846b3b9078df0a8c3108380c9f1683afcd47.css?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:09:52 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:10:34 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-83a5c9666b9bbe64534d45bf834181c624471335de5f38c8c85fd1a0866d5ca2.css?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:10:34 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:10:39 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/application.self-83a5c9666b9bbe64534d45bf834181c624471335de5f38c8c85fd1a0866d5ca2.css?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:10:39 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:10:50 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/application.self-1b5ced196e79e2b2de86119ec5eb51f696d7a9209c23775b09b391d30f3e94bb.css?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:10:50 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:11:08 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6a1bb3317c6882f7c6ae94443e8736ea30900c5cc7c208fb1116408e5c8950bf.css?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:11:08 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:11:29 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-65f5d953ae6bb0a289e9bde4a2e2d047f29de552fe13c90fe2f2baba892db04a.css?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:11:29 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:14:32 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4aded805ffb9c3ca971c7f7d650d0fed71ba8bd566ef1b70cf6db97b95c95d9c.css?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:14:32 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:15:14 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2d2c957f44f20f94d4a41c3c5a86f72c1c856b55eb1fa5ebc74e3224d4d21117.css?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:15:14 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:18:41 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3eea922d18df05d21f3ab779aacec489e3e8ce6930eb2959405d2c140e87e83d.css?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:18:41 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:19:15 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:19:15 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:19:15 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:19:15 +1000
+
+
+Started GET "/assets/application.self-199a597d7fd4554a3422364ebdeb160f7455076cea457ca93e09bb613ff83bc3.css?body=1" for ::1 at 2016-07-18 22:19:15 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:19:16 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:19:16 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:19:16 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:19:16 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:19:16 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:21:07 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-68ea128729cffefe0f205480d826ab2fb8972d286ed9f4d2027e1d3db55c6124.css?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:21:07 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:21:40 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7076cbda530e17190e99b137f7a283c8ea5dfcd3dc717d5cb650f8a4eba6e772.css?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:21:40 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:21:47 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-943875c21b7f53e75a3deb50fdeee08ed13652e82ae681611c370bac73d20f10.css?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:21:47 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:21:56 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3af161191a4698662665a9dc8213b242db9de8dafe0195992bea4006cc33861b.css?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:21:56 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:22:07 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-18e61f4bba34f3da5ed8d3e9eb40556d9696992128edb10c87fa10263dc06e4b.css?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:22:07 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:22:22 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/application.self-18e61f4bba34f3da5ed8d3e9eb40556d9696992128edb10c87fa10263dc06e4b.css?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:22:22 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:23:23 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-110a820cbaea57e7e753991dfc6f229c4ba6a2d832145244ebea1edfde20e60c.css?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:23:23 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:24:03 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e3a37036408af36156ca7569c097b68f361ea99289b275525be4b9d62e43502a.css?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:24:03 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:24:10 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bef62a69d806029a20b22d9b17dd544ee6800196970f16a94d8b799db75adb8c.css?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:24:10 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:24:20 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ae074ff52f9e36e198febb4d9e8beb4090cb4f5e47cf0ae640a0dfb812be6154.css?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:24:20 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:24:26 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/application.self-ae074ff52f9e36e198febb4d9e8beb4090cb4f5e47cf0ae640a0dfb812be6154.css?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:24:26 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:25:04 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-47ffb19d3eee416651bc48e798e1c90bfa57f688b66455f3fb28435b7cbfc53a.css?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:25:04 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:25:34 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-48be05423b2aba584ee9913025b6df6a54fff29eb2c12c487816db70504652ca.css?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:25:34 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:25:52 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/application.self-929cd85260b466ad326d9374fb29e7ea5e1f528ca5f3a9a2c1959de496f55c98.css?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:25:52 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:26:33 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/application.self-f39d34b209d2dc69cdc3b1b7b96471fa51a421df9fb9ea1028f1ad0bdd83e034.css?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:26:33 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:26:36 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/application.self-f39d34b209d2dc69cdc3b1b7b96471fa51a421df9fb9ea1028f1ad0bdd83e034.css?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:26:36 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:26:47 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-51063f3b74af8894ca5f59b5a3564c06faf628789bc3181bfabc34810b7ccd31.css?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:26:48 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:27:18 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cf2e8a8bd8c09c03037f3508abbd6bafaa9b45c657b5604ad9a6f54cb4945195.css?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:27:19 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:27:21 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/application.self-cf2e8a8bd8c09c03037f3508abbd6bafaa9b45c657b5604ad9a6f54cb4945195.css?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:27:21 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:29:29 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d8890fe46969d4103185c032236c3ab8f4024d31b8bd5b6775443174bbf57186.css?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:29:29 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:31:14 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4b38932f4ab9971fd56b7dc5474af92f21dd4102ff9279de278965fa8a5cd2b0.css?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:31:14 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:31:17 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/application.self-4b38932f4ab9971fd56b7dc5474af92f21dd4102ff9279de278965fa8a5cd2b0.css?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:31:17 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:31:32 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/application.self-4b38932f4ab9971fd56b7dc5474af92f21dd4102ff9279de278965fa8a5cd2b0.css?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:31:32 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:31:33 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:31:33 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:32:20 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-79a354507f8317566f6cc7178460eba7f1e4b8264cd1a8b2d25f7014d4e07a66.css?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:32:20 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:32:45 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-310cfd02d3dfa9f2c75af3bfdb9c939de2a582d89fbe19ab2f93c5dfa54e52b9.css?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:32:45 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:33:55 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-16fa895917cdbd40f9f66942eecc9c7870b2d7a6716d23d49e26e8e0d4d7175a.css?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:33:55 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:34:16 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-da558beb98cf98538b9ecd3a48dfbb7464a352131277055ca68cc1d298260da5.css?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:34:16 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:34:28 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3f66ac90cc58a07f92dacefb46d373c9cacc6eb51161572548896d002681c7ce.css?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:34:28 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:34:57 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0ed40b1e8e34b411616f59f6c203279231edebb8e3a2268edf7ca5597e400b10.css?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:34:58 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:35:02 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/application.self-0ed40b1e8e34b411616f59f6c203279231edebb8e3a2268edf7ca5597e400b10.css?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:35:02 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:35:36 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fe7116be2863659e2af41d6a639635d36b80fa9e5642bc4381bed555e1c28e28.css?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:35:36 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:35:58 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c5e74b72a084a5a95a92f4b08d7aa98b40bcd54b5a9403375c3fb698ffdf331a.css?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:35:58 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:36:54 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ba102a489664895f34787f78fdca9cfc3a2c0a004c4dcfee3dbf2e3e6b109575.css?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:36:54 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:37:11 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8b00ccf9f58cdcdf14455ec20fbf55fc48d3a7feef58096778573c489cef9c10.css?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:37:12 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:37:24 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-90997bf798d457cab5b6bead9e0a0721cc1e6663a285662434c593dc5341345a.css?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:37:24 +1000
+
+
+Started GET "/" for ::1 at 2016-07-18 22:38:54 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/marvelcomics.self-62792d73f2b1ffc9f564be3a1f416f89054a65578b93f31f342da720d8aa2505.js?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-18 22:38:54 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 10:28:15 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 327ms (Views: 318.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 10:28:16 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:31:46 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 394ms (Views: 386.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/marvelcomics.self-fb56206349b57e76c784e918ee8d6419470364b9aa13421f991bc61e8851c6c9.js?body=1" for ::1 at 2016-07-19 12:31:47 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:31:47 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:33:27 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/marvelcomics.self-ad32db21af268cfa0bce21d6d89256fce785db7bb20cb724f4f8e3d6b48f9007.js?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:33:28 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:33:44 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/marvelcomics.self-4c75a6f0ded706bd063f79defb013cc720e159e3f7228226fcb31ed0c491e04e.js?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:33:44 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:33:45 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:34:29 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/marvelcomics.self-8adbbaeb142d301a748929c15d8fbb11bcb8f7dc06723885a56da2cb8129be5d.js?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:34:29 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:35:05 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/marvelcomics.self-98697e68c6c95c9c3f6ee886aba963b91acd2c96715125b97f7b9aaab4a9b877.js?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:35:05 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:36:05 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/marvelcomics.self-c1a75c0660dab12160d7ef8fb34b5e11eb863d1c24c117498aa9567a1cce3a67.js?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:36:05 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:39:30 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/marvelcomics.self-7b58f4f8a1303c5ea211b5ceeb18b40cdb7cfe7af7ccb5aefca31fad6318ee76.js?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:39:30 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:40:37 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/marvelcomics.self-000c25e0560743253da67b93a58ef33a3636aaf26c807ca8c95d09fac666870a.js?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:40:37 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:40:53 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/marvelcomics.self-f952f185efa17f192b68e0fe0e3383f9e90c1089c45b020edcbfaa67b9cab71a.js?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:40:54 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:42:43 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/marvelcomics.self-7abcbee54d30168ad9f23fdb068baca8598349047ae52f274cb7ea07ef12d832.js?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:42:43 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:45:19 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/marvelcomics.self-62c8626bf7439fdcbac665fb22875b79c75d888b5d0155a4f974acfa0dbbf085.js?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:45:19 +1000
+
+
+Started GET "/" for ::1 at 2016-07-19 12:47:17 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/marvelcomics.self-4e26d81bf365641baeeea6f5d6c6f3206314f07cc4c97d6d9ae7da4d16700dfa.js?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-07-19 12:47:17 +1000
+
+
+Started GET "/" for ::1 at 2016-09-12 14:03:13 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 373ms (Views: 366.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-09-12 14:03:13 +1000
+
+
+Started GET "/assets/marvelcomics.self-4e26d81bf365641baeeea6f5d6c6f3206314f07cc4c97d6d9ae7da4d16700dfa.js?body=1" for ::1 at 2016-09-12 14:03:13 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-09-12 14:03:13 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-09-12 14:03:13 +1000
+
+
+Started GET "/" for ::1 at 2016-09-19 13:20:04 +1000
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 200ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/marvelcomics.self-4e26d81bf365641baeeea6f5d6c6f3206314f07cc4c97d6d9ae7da4d16700dfa.js?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/application.self-0f4fbeec04a7959eff07377665e383510d857c35bec1e2434d856435ea7ea3b4.css?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/md5.self-e234911d51a5911dfa3d3a2658172ccbca362560776a9f46f7fec7bd3d4ea69e.js?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-09-19 13:20:04 +1000
+
+
+Started GET "/assets/md5.js" for ::1 at 2016-09-19 13:20:04 +1000
